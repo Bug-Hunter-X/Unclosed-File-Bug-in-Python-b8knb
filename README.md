@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily avoidable bug in Python: forgetting to close a file after opening it.  Unclosed files can lead to resource leaks and potential errors, especially in long-running processes or when dealing with a large number of files. The provided solution showcases the best practice of using the 'with' statement for automatic file closure.
